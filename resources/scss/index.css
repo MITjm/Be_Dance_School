@@ -1,0 +1,1441 @@
+/* :root{
+
+} */
+/* Header Part */
+/* header .header_part {
+padding-bottom: 15px;
+} */
+/* .topnav .toggle-btn {
+width: 100%;
+margin: 10px;
+background-color: ;
+} */
+/* Home Part */
+/* .home_part .home_part_body .right_part .right_part_word {
+font-size: 23px;
+max-width: 100%;
+color: #ffffff94;
+background: transparent;
+word-break: break-word;
+font-weight: 600;
+line-height: 1;
+text-transform: uppercase;
+justify-content: space-between;
+width: 100%;
+} */
+/* .home_part .home_part_body .left_part {
+    flex: 0 0 45%;
+} */
+/* Card Part */
+/* Quoate Section */
+/* Dance Type */
+/* How We Work Button Part */
+/* Promo Part */
+/* Carousel Part */
+/* .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote::after{
+content: "\f10e";
+position: absolute;
+top: -10px;
+left: 0;
+font-size: 65px;
+} */
+/* .team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .card-part .social-icons {
+width: 10px;
+ height: 10px;
+} */
+/* Contact Us Part */
+/* Footer Part */
+body {
+  font-family: "Barlow Semi Condensed", Helvetica, Arial, sans-serif !important;
+}
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
+header {
+  background-color: #ffa2ad;
+  display: flex;
+}
+header .header_part .navbar .navbar-toggler {
+  margin: 10px;
+  border: none;
+  font-size: 15px;
+}
+header .header_part .navbar .collapse .navbar-nav .nav-item button {
+  border-radius: 20px;
+  background-color: #000;
+  padding: 5px 30px;
+  border: none;
+}
+header .header_part .navbar .collapse .navbar-nav .nav-item button a {
+  text-decoration: none;
+  font-size: 13px;
+}
+header .header_part .navbar .collapse .navbar-nav .nav-item button a i {
+  padding-left: 5px;
+}
+header button {
+  border-radius: 20px;
+  background-color: #000;
+  padding: 5px 30px;
+  border: none;
+}
+header button a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 900;
+}
+header button a i {
+  padding-left: 5px;
+  font-weight: 900;
+}
+header #my-menu {
+  background-color: #ffa2ad;
+  display: none;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+header #my-menu ul {
+  list-style-type: none;
+  display: block;
+  line-height: 1.5;
+  padding: 14px 16px;
+  margin: 0;
+}
+header #my-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+img {
+  max-width: 100%;
+}
+
+.topnav {
+  max-width: 100%;
+  position: relative;
+}
+.topnav .navbar-brand {
+  margin-right: auto;
+}
+.topnav .toggle-btn-icon {
+  background-color: #ffa2ad;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.home_part {
+  background-color: #ffa2ad;
+  height: calc(40vh - 68px);
+  margin-top: 0;
+}
+.home_part .home_part_body {
+  display: flex;
+  padding-top: 30px;
+  height: calc(40vh - 68px);
+  position: relative;
+}
+.home_part .home_part_body .left_part {
+  position: absolute;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 34px;
+  max-width: 100%;
+  width: 45%;
+}
+.home_part .home_part_body .left_part p {
+  margin: 0;
+  line-height: 1.4;
+  color: #fff;
+  font-weight: 900;
+  font-size: auto;
+}
+.home_part .home_part_body .left_part span {
+  position: absolute;
+  top: 35px;
+  font-family: "Mr Dafoe", cursive;
+  left: 0px;
+  font-size: 15px;
+}
+.home_part .home_part_body .left_part .left_part_button ul {
+  list-style-type: none;
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+  padding-left: 0px;
+  margin-bottom: 0;
+}
+.home_part .home_part_body .left_part .left_part_button ul li a {
+  width: 50px;
+  border-radius: 20px;
+  font-size: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.home_part .home_part_body .right_part {
+  max-width: 100%;
+  width: 100%;
+}
+.home_part .home_part_body .right_part img {
+  max-width: 100%;
+  height: calc(40vh - 68px);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.card_part .card_part_main_content {
+  margin-top: 40px;
+  gap: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.card_part .card_part_main_content .card_part_body {
+  height: 270px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+.card_part .card_part_main_content .card_part_body a {
+  position: absolute;
+  right: 40px;
+  top: 25px;
+  color: #000;
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+}
+.card_part .card_part_main_content .card_part_body .card_content {
+  position: absolute;
+  top: 130px;
+  left: 28px;
+}
+.card_part .card_part_main_content .card_part_body .card_content .card_content_text {
+  width: 90px;
+  background-color: #fff;
+  padding: 6px;
+  font-size: 11px;
+  font-weight: 900;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card_part .card_part_main_content .card_part_body .card_content .card_content_text_body {
+  width: 50px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 13px;
+}
+.card_part .card_part_main_content .promotion_content {
+  background-image: url("../images/Card_Image_1.jpg");
+}
+.card_part .card_part_main_content .team_content {
+  background-image: url("../images/Card_Image_2.jpg");
+}
+
+.quoate_part {
+  margin-top: 40px;
+}
+.quoate_part .quoate_part_body {
+  text-align: center;
+}
+.quoate_part .quoate_part_body .quoate_feet_content {
+  padding: 0px 9px;
+  color: #ff8e9c;
+}
+.quoate_part .quoate_part_body .quoate_feet_content h2 {
+  font-weight: 800;
+  line-height: 1;
+}
+.quoate_part .quoate_part_body .quoate_style_que {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px 35px;
+  line-height: 1.1;
+}
+.quoate_part .quoate_part_body .quoate_pg_content {
+  padding: 0px 37px;
+  color: #191919;
+}
+
+.dance-type-part {
+  margin-top: 40px;
+}
+.dance-type-part .dance-type-main-part {
+  padding: 0px 20px;
+}
+.dance-type-part .dance-type-main-part .dance-type-card {
+  padding-bottom: 25px;
+}
+.dance-type-part .dance-type-main-part .dance-type-card img {
+  max-width: 100%;
+  height: auto;
+}
+.dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body {
+  margin-top: 40px;
+  text-align: center;
+}
+.dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body h5 {
+  font-size: 16px !important;
+  font-weight: 800;
+}
+.dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body span {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 35px;
+  color: #ff8e9c;
+}
+.dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body p {
+  margin: 0;
+  font-size: 13px;
+  color: #191919;
+}
+.dance-type-part .dance-type-main-part .dance-type-card3 {
+  padding-bottom: 0;
+}
+
+.how-work-btn {
+  margin-top: 40px;
+}
+.how-work-btn .how-work-btn-body {
+  text-align: center;
+}
+.how-work-btn .how-work-btn-body a {
+  background-color: #000;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  padding: 13px 30px;
+  font-size: 12px;
+}
+
+.promo_part {
+  margin-top: 40px;
+  position: relative;
+}
+.promo_part::after {
+  content: "";
+  background: #fec751;
+  height: 140px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+.promo_part .promo_part_main_content {
+  background-image: url("../images/background_image2.jpg");
+  max-width: 100%;
+  height: auto;
+  margin: 0 33px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  z-index: 1;
+  position: relative;
+}
+.promo_part .promo_part_main_content .promo_part_main_body {
+  text-align: center;
+  padding: 110px 20px;
+}
+.promo_part .promo_part_main_content .promo_part_main_body h2 {
+  font-weight: 800;
+  font-size: 35px;
+}
+.promo_part .promo_part_main_content .promo_part_main_body span {
+  color: #ff8e9c;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 40px;
+}
+.promo_part .promo_part_main_content .promo_part_main_body p {
+  padding-top: 30px;
+  margin: 0;
+  font-size: 12px;
+}
+.promo_part .promo_part_main_content .promo_part_main_body .promo-video-btn {
+  margin-top: 70px;
+}
+.promo_part .promo_part_main_content .promo_part_main_body .promo-video-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #000;
+  padding: 10px 30px;
+}
+.promo_part .promo_part_main_content .promo_part_main_body a i {
+  padding-left: 20px;
+}
+
+.workshps_part {
+  background-color: #fec751;
+  padding-bottom: 80px;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body {
+  padding-top: 100px;
+  text-align: center;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body h2 {
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 35px;
+  font-weight: 800;
+  margin: 0;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body span {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 40px;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part {
+  background-color: #fff;
+  text-align: center;
+  padding: 70px 20px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
+  height: auto;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part h5 {
+  font-size: 13px;
+  color: #ff8e9c;
+  font-weight: 900;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part h4 {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part span {
+  font-size: 30px;
+  color: #ff8e9c;
+  font-family: "Mr Dafoe", cursive;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part hr {
+  width: 80px;
+  color: #191919;
+  margin-left: 65px;
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part .price-tag {
+  font-family: "Barlow Semi Condensed", Helvetica, Arial, sans-serif !important;
+  color: #000;
+  font-size: 25px;
+  display: block;
+  padding: 30px 0px;
+  font-weight: 800;
+}
+.workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #000;
+  padding: 10px 30px;
+}
+
+.insta-btn-part {
+  margin-top: 60px;
+}
+.insta-btn-part .insta-btn-main-content {
+  text-align: center;
+}
+.insta-btn-part .insta-btn-main-content a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 11px;
+  border-radius: 20px;
+  background-color: #000;
+  padding: 10px 30px;
+}
+
+.classes-part {
+  margin-top: 70px;
+}
+.classes-part .classes-part-main-content .classes-part-quoate {
+  text-align: center;
+  padding: 20px 40px;
+}
+.classes-part .classes-part-main-content .classes-part-quoate h1 {
+  font-size: 33px;
+  color: #ff8e9c;
+  font-weight: 800;
+  padding: 20px 0px;
+}
+.classes-part .classes-part-main-content .classes-part-quoate span {
+  font-size: 40px;
+  font-family: "Mr Dafoe", cursive;
+}
+.classes-part .classes-part-main-content .classes-part-quoate p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 30px;
+}
+.classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part {
+  background-color: #fff;
+  text-align: center;
+  padding: 70px 20px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part h4 {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+.classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part span {
+  font-size: 30px;
+  color: #ff8e9c;
+  font-family: "Mr Dafoe", cursive;
+}
+.classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+.classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part hr {
+  width: 100px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 20px;
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
+.classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part .price-tag {
+  font-family: "Barlow Semi Condensed", Helvetica, Arial, sans-serif !important;
+  color: #000;
+  font-size: 25px;
+  display: block;
+  padding: 30px 0px;
+  font-weight: 800;
+}
+.classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: #000;
+  padding: 10px 30px;
+}
+
+.carousel_part {
+  margin-top: 50px;
+}
+.carousel_part .carousel_part_main_content {
+  padding: 35px 40px;
+  text-align: center;
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-indicators {
+  position: absolute;
+  bottom: -50px;
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-indicators button {
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.25);
+  width: 20px;
+  height: 0px;
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item img {
+  border-radius: 50px;
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content .quote-content {
+  background-color: rgba(222, 222, 222, 0.7215686275);
+  padding: 20px 40px;
+  margin-top: 65px;
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote {
+  background: url("../images/lineimg.png") repeat-y;
+  line-height: 31px;
+  font-size: 12px;
+  position: relative;
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote i {
+  font-size: 42px;
+  position: absolute;
+  top: -10px;
+  left: -15px;
+  color: rgba(191, 191, 191, 0.4588235294);
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content p {
+  margin: 0;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #ff8e9c;
+}
+.carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content span {
+  font-size: 13px;
+  font-weight: 900;
+  color: #000;
+}
+
+.team-part {
+  background-color: #56bbef;
+  margin-top: 70px;
+}
+.team-part .team-part-main-content .team-part-body {
+  text-align: center;
+}
+.team-part .team-part-main-content .team-part-body .team-part-body-content h2 {
+  color: #fff;
+  padding-top: 110px;
+  padding-bottom: 15px;
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0;
+}
+.team-part .team-part-main-content .team-part-body .team-part-body-content span {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 40px;
+}
+.team-part .team-part-main-content .team-part-body .team-part-body-content p {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.7);
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin: 0;
+}
+.team-part .team-part-main-content .team-part-body .team-part-card-body {
+  margin-top: 50px;
+  padding-bottom: 90px;
+}
+.team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .card-part {
+  padding: 220px 20px 50px;
+  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+.team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .card-part h4 {
+  color: #fff;
+  padding: 10px 45px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+.team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .card-part .social-icons button {
+  background-color: #ff8e9c;
+  border-radius: 30px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  width: 30px;
+  margin: 0px 5px;
+}
+.team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .teamimg1 {
+  background-image: url("../images/teamimg1.jpg");
+}
+.team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .teamimg2 {
+  background-image: url("../images/teamimg2.jpg");
+}
+.team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .teamimg3 {
+  background-image: url("../images/teamimg3.jpg");
+}
+
+.contactus-part .contactus-main-content .contactus-body-part {
+  text-align: center;
+}
+.contactus-part .contactus-main-content .contactus-body-part h2 {
+  color: #ff8e9c;
+  padding: 110px 40px 10px 40px;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+}
+.contactus-part .contactus-main-content .contactus-body-part span {
+  font-family: "Mr Dafoe", cursive;
+  font-size: 40px;
+}
+.contactus-part .contactus-main-content .contactus-body-part p {
+  font-size: 11px;
+  color: #ababab;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin: 0;
+}
+.contactus-part .contactus-main-content .contactus-form-part {
+  padding: 20px;
+  text-align: center;
+}
+.contactus-part .contactus-main-content .contactus-form-part input {
+  margin: 10px 0px !important;
+  border: none;
+  background-color: rgb(255, 240, 224);
+  width: 100%;
+  padding: 10px 10px !important;
+  font-size: 13px !important;
+}
+.contactus-part .contactus-main-content .contactus-form-part textarea {
+  margin: 10px 0px !important;
+  border: none;
+  background-color: rgb(255, 240, 224);
+  width: 100%;
+  padding: 10px 10px !important;
+  font-size: 13px !important;
+}
+.contactus-part .contactus-main-content .contactus-form-part button {
+  color: #fff;
+  background-color: #ff8e9c;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 35px;
+  font-size: 12px;
+  text-align: center;
+}
+.contactus-part .contactus-main-content .contactus-card-part {
+  margin: 20px auto;
+}
+.contactus-part .contactus-main-content .contactus-card-part .card-part {
+  text-align: center;
+  padding: 30px;
+  margin: 20px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+.contactus-part .contactus-main-content .contactus-card-part .card-part i {
+  width: 100%;
+  font-size: 40px;
+  color: #ff8e9c;
+  padding: 35px 0px;
+}
+.contactus-part .contactus-main-content .contactus-card-part .card-part span {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+.contactus-part .contactus-main-content .contactus-card-part .card-part p {
+  margin: 30px 30px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.contactus-part .contactus-main-content .contactus-card-part .card-part .mo-num {
+  margin: 30px 30px;
+  font-size: 12px;
+  color: #000;
+}
+
+hr {
+  margin-top: 70px !important;
+}
+
+footer .footer-main-content .footer-body {
+  text-align: center;
+  width: 100%;
+  margin: 30px 0px;
+}
+footer .footer-main-content .footer-body p {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px auto;
+}
+footer .footer-main-content .footer-body p a {
+  color: #ff8e9c;
+  text-decoration: none;
+}
+footer .footer-main-content .footer-body p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar-brand img {
+    max-width: 100%;
+    height: 42px;
+  }
+  header .buy_button {
+    display: none;
+  }
+  header .header_part .topnav {
+    display: none;
+  }
+  header #my-menu ul {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header .header_part {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+  }
+  header .header_part nav {
+    max-width: 100%;
+    width: 80%;
+  }
+  header .header_part .navbar {
+    display: none;
+  }
+  header .header_part .navbar .navbar-nav .nav-item button {
+    display: none;
+  }
+  .navbar-brand img {
+    max-width: 100%;
+    height: 60px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  header .header_part .topnav {
+    max-width: 100%;
+    width: 85%;
+  }
+  header .header_part .topnav #my-menu {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  header .header_part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .header_part .navbar-brand img {
+    max-width: 100%;
+    height: 60px;
+  }
+  header .header_part .navbar {
+    visibility: visible;
+  }
+  header .header_part .navbar .navbar-nav .nav-item button {
+    display: none;
+  }
+  header .header_part .topnav {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) {
+  .home_part .home_part_body .left_part p {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .home_part {
+    height: calc(40vh - 68px);
+  }
+  .home_part .home_part_body {
+    height: calc(40vh - 68px);
+  }
+  .home_part .home_part_body .left_part {
+    width: 44%;
+  }
+  .home_part .home_part_body .left_part p {
+    font-size: 14px;
+  }
+  .home_part .home_part_body .left_part span {
+    position: absolute;
+    top: 44px;
+  }
+  .home_part .home_part_body .right_part img {
+    height: calc(40vh - 68px);
+  }
+  .card_part .card_part_body {
+    height: 265px !important;
+    width: 310px !important;
+  }
+  .card_part .card_part_body .card_content {
+    position: absolute;
+    top: 125px;
+    left: 35px;
+  }
+  .card_part .card_part_body .card_content .card_content_text {
+    width: 83px;
+    background-color: #fff;
+    font-size: 9px;
+    font-weight: 900;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 425px) {
+  .home_part {
+    height: calc(40vh - 68px);
+  }
+  .home_part .home_part_body .left_part {
+    margin-left: 30px;
+    width: 39%;
+  }
+  .home_part .home_part_body .right_part img {
+    height: calc(40vh - 68px);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .card_part .card_part_body {
+    width: 360px !important;
+    height: 268px !important;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .home_part {
+    height: calc(70vh - 68px);
+  }
+  .home_part .home_part_body {
+    padding-top: 0;
+  }
+  .home_part .home_part_body .left_part {
+    width: 55%;
+    position: absolute;
+    top: 0;
+    left: -15px;
+  }
+  .home_part .home_part_body .left_part p {
+    font-size: 30px;
+    margin-left: 60px;
+  }
+  .home_part .home_part_body .left_part span {
+    position: absolute;
+    top: 94px;
+    font-size: 30px;
+    left: 60px;
+  }
+  .home_part .home_part_body .left_part .left_part_button ul {
+    padding-left: 60px;
+  }
+  .home_part .home_part_body .left_part .left_part_button ul li a {
+    font-size: 8px;
+  }
+  .home_part .home_part_body .right_part img {
+    max-width: 100%;
+    height: calc(70vh - 68px);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .quoate_part_body {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .quoate_part .quoate_part_body .quoate_feet_content h2 {
+    font-size: 50px !important;
+    padding: 0 5%;
+  }
+  .quoate_part .quoate_part_body .quoate_pg_content p {
+    font-size: 14px;
+  }
+  .dance-type-part .dance-type-main-part {
+    display: flex;
+    gap: 20px;
+  }
+  .dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body h5 {
+    font-size: 22px !important;
+    font-weight: 800;
+  }
+  .dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body p {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .promo_part {
+    margin-top: 70px;
+  }
+  .promo_part .promo_part_main_content {
+    margin-left: 76px;
+    margin-right: 76px;
+  }
+  .promo_part .promo_part_main_content .promo_part_main_body h2 {
+    font-size: 50px;
+    padding: 0 30px;
+  }
+  .promo_part .promo_part_main_content .promo_part_main_body span {
+    color: #ff8e9c;
+    font-family: "Mr Dafoe", cursive;
+    font-size: 50px;
+  }
+  .promo_part .promo_part_main_content .promo_part_main_body p {
+    padding: 30px 50px 0px 50px;
+    margin: 0;
+    font-size: 13px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate {
+    padding: 20px 60px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate h1 {
+    font-size: 40px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate span {
+    font-size: 55px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate p {
+    font-size: 15px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content .quote-content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote {
+    font-size: 13px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote i {
+    font-size: 42px;
+    position: absolute;
+    top: -10px;
+    left: -15px;
+    color: rgba(191, 191, 191, 0.4588235294);
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content p {
+    font-size: 55px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content span {
+    font-size: 20px;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part #uname {
+    width: 40%;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part #subject {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part textarea {
+    width: 80%;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part form {
+    width: 80%;
+    margin: 50px auto;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part {
+    display: flex;
+    gap: 20px;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part .card-part {
+    margin: 0;
+    width: 100%;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part .card-part p {
+    font-size: 14px;
+    margin: 30px 0px;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part .card-part .mo-num {
+    font-size: 14px;
+    margin: 30px 0px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #email {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home_part {
+    height: calc(90vh - 68px);
+  }
+  .home_part .home_part_body {
+    padding-top: 0;
+  }
+  .home_part .home_part_body .left_part {
+    width: 43%;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+  }
+  .home_part .home_part_body .left_part p {
+    font-size: 30px;
+    margin-left: 60px;
+  }
+  .home_part .home_part_body .left_part span {
+    position: absolute;
+    top: 94px;
+    font-size: 30px;
+    left: 60px;
+  }
+  .home_part .home_part_body .left_part .left_part_button ul {
+    padding-left: 60px;
+  }
+  .home_part .home_part_body .left_part .left_part_button ul li a {
+    font-size: 10px;
+  }
+  .home_part .home_part_body .right_part {
+    max-width: 100%;
+    height: calc(90vh - 68px);
+  }
+  .home_part .home_part_body .right_part img {
+    max-width: 100%;
+    height: calc(90vh - 68px);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .quoate_part {
+    background-image: url("../images/background_image1.png");
+    background-position: center;
+  }
+  .quoate_part .quoate_part_body .quoate_feet_content h2 {
+    font-size: 70px !important;
+    letter-spacing: -3px;
+    padding: 50px 0px 0px;
+  }
+  .quoate_part .quoate_part_body .quoate_pg_content p {
+    font-size: 17px;
+  }
+  .quoate_part_body {
+    padding: 80px 100px !important;
+  }
+  .dance-type-part .dance-type-main-part {
+    display: flex;
+    gap: 0px;
+  }
+  .dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body h5 {
+    font-size: 30px !important;
+    font-weight: 800;
+  }
+  .dance-type-part .dance-type-main-part .dance-type-card .dance-type-card-body p {
+    margin: 0;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .promo_part {
+    margin-top: 70px;
+  }
+  .promo_part .promo_part_main_content {
+    margin-left: 76px;
+    margin-right: 76px;
+  }
+  .promo_part .promo_part_main_content .promo_part_main_body h2 {
+    font-size: 60px;
+    padding: 0 40px;
+  }
+  .promo_part .promo_part_main_content .promo_part_main_body span {
+    color: #ff8e9c;
+    font-family: "Mr Dafoe", cursive;
+    font-size: 55px;
+  }
+  .promo_part .promo_part_main_content .promo_part_main_body p {
+    padding: 30px 90px 0px 90px;
+    margin: 0;
+    font-size: 17px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate {
+    padding: 20px 125px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate h1 {
+    font-size: 45px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate span {
+    font-size: 55px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate p {
+    font-size: 15px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content .quote-content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote {
+    font-size: 15px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote i {
+    font-size: 42px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: rgba(191, 191, 191, 0.4588235294);
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content p {
+    font-size: 55px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content span {
+    font-size: 23px;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part #uname {
+    width: 40%;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part #subject {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part textarea {
+    width: 80%;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part form {
+    width: 70%;
+    margin: 50px auto;
+  }
+  .contactus-part .contactus-main-content .contactus-form-part button {
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 35px;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part {
+    display: flex;
+    gap: 20px;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part .card-part {
+    margin: 0;
+    width: 100%;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part .card-part p {
+    font-size: 16px;
+    margin: 30px 0px;
+  }
+  .contactus-part .contactus-main-content .contactus-card-part .card-part .mo-num {
+    font-size: 16px !important;
+    margin: 30px 0px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #email {
+    width: 40%;
+  }
+  footer .footer-main-content .footer-body p {
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 1330px) {
+  .home_part {
+    height: calc(100vh - 68px);
+  }
+  .home_part .home_part_body {
+    height: calc(100vh - 68px);
+  }
+  .home_part .home_part_body .left_part {
+    width: 46%;
+    position: absolute;
+    top: 35px;
+    left: 10%;
+    margin: 0;
+  }
+  .home_part .home_part_body .left_part p {
+    font-size: 55px;
+    margin-left: 0px;
+  }
+  .home_part .home_part_body .left_part span {
+    font-size: 55px;
+    top: 63%;
+    position: absolute;
+    left: 0px;
+  }
+  .home_part .home_part_body .left_part .left_part_button ul {
+    padding-left: 0px;
+  }
+  .home_part .home_part_body .left_part .left_part_button ul li a {
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 10px 20px;
+  }
+  .home_part .home_part_body .right_part img {
+    height: calc(100vh - 68px);
+  }
+  .card_part .card_part_body {
+    width: 280px;
+    height: 350px;
+  }
+  .card_part .card_part_body .card_content .card_content_text {
+    font-size: 15px;
+    width: 125px;
+  }
+  .card_part .card_part_body .card_content .card_content_text_body {
+    font-size: 25px;
+    width: 113px;
+  }
+  .quoate_part .quoate_part_body .quoate_feet_content h2 {
+    margin: 0;
+  }
+  .quoate_part .quoate_part_body .quoate_pg_content p {
+    margin-top: 20px;
+  }
+  .dance-type-part .dance-type-main-part {
+    display: flex;
+    gap: 60px;
+  }
+  .how-work-btn .how-work-btn-body a {
+    font-size: 15px;
+  }
+  .promo_part .promo_part_main_content {
+    margin: 0;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body {
+    display: grid;
+    row-gap: 30px;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body h2 {
+    font-size: 55px;
+    padding: 0px 130px;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body span {
+    font-size: 55px;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part h5 {
+    font-size: 20px;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part h4 {
+    font-size: 30px;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part p {
+    font-size: 17px;
+    padding: 20px 10px 0px;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part hr {
+    margin-left: 40px;
+  }
+  .insta-btn-part .insta-btn-main-content a {
+    font-size: 15px;
+  }
+  .classes-part {
+    background-image: url("../images/background_image3.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate {
+    padding: 50px 125px;
+  }
+  .classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part h4 {
+    font-size: 30px;
+  }
+  .classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part p {
+    font-size: 17px;
+  }
+  .classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part hr {
+    margin-left: 35px;
+  }
+  .carousel_part .carousel_part_main_content #carouselExampleIndicators .carousel-inner .carousel-item .carousel-content blockquote i {
+    position: absolute;
+    left: -15px;
+  }
+  .team-part {
+    background-image: url("../images/background_image4.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .team-part .team-part-main-content .team-part-body .team-part-card-body {
+    padding: 0px 60px 90px;
+  }
+  .team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .card-part h4 {
+    padding: 0px 93px;
+  }
+  .team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .card-part .social-icons button {
+    margin: 15px 5px;
+  }
+  .team-part .team-part-main-content .team-part-body .team-part-body-content h2 {
+    font-size: 55px;
+    padding: 110px 100px 15px;
+  }
+  .team-part .team-part-main-content .team-part-body .team-part-body-content p {
+    font-size: 17px;
+    padding: 20px 100px 0px;
+  }
+  .contactus-part {
+    background-image: url("../images/background_image6.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .contactus-part .contactus-main-content .contactus-body-part h2 {
+    font-size: 55px;
+    padding: 110px 125px 10px;
+  }
+  .contactus-part .contactus-main-content .contactus-body-part p {
+    font-size: 17px;
+    padding: 20px 125px 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card_part_main_content {
+    display: flex;
+    margin-left: 50px;
+    margin-top: -120px !important;
+  }
+  .card_part .card_part_body {
+    width: 223px !important;
+    height: 315px !important;
+    background-position: center;
+    margin: 0;
+    margin: 0;
+    margin-top: -185px;
+  }
+  .card_part .card_part_body .card_content {
+    position: absolute;
+    top: 170px;
+  }
+  .card_part .card_part_body .card_content .card_content_text {
+    font-size: 11px;
+    padding: 5px 10px;
+    width: 100px;
+  }
+  .card_part .card_part_body .card_content .card_content_text_body {
+    font-size: 18px !important;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body {
+    display: grid;
+    row-gap: 40px;
+  }
+  .workshps_part .workshops_part_main_content .workshops_part_body .row .col-md-4 .card-part {
+    margin: 0px;
+  }
+  .classes-part .classes-part-main-content .classes-part-card {
+    display: grid;
+    row-gap: 40px;
+  }
+  .classes-part .classes-part-main-content .classes-part-card .row .col-md-4 .card-part {
+    margin: 0px;
+  }
+  .team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 {
+    margin: 0;
+    padding: 0;
+  }
+  .team-part .team-part-main-content .team-part-body .team-part-card-body .row .col-md-4 .card-part {
+    margin: 0px 10px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .quoate_part_body {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .quoate_part .quoate_part_body .quoate_feet_content h2 {
+    font-size: 34px !important;
+  }
+  .quoate_part .quoate_part_body .quoate_pg_content p {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .promo_part {
+    margin-top: 70px;
+  }
+  .promo_part .promo_part_main_content {
+    margin-left: 42.5px;
+    margin-right: 42.5px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate h1 {
+    font-size: 35px;
+  }
+  .classes-part .classes-part-main-content .classes-part-quoate span {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 376px) {
+  .insta-btn-part .insta-btn-main-content a {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer .footer-main-content .footer-body p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=index.css.map */

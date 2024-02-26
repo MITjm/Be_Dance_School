@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Part</title>
+    <!-- <link rel="stylesheet" href="resources/css/header.css"> -->
+    <link rel="stylesheet" href="resources/css/font-awesome.css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .topnavbar {
+            max-width: 100%;
+        }
+
+        .topnavbar .topnav #my-menu {
+            background-color: #ffa2ad;
+            display: none;
+            position: absolute;
+            width: 100%;
+        }
+
+        .topnavbar .topnav #my-menu ul {
+            list-style-type: none;
+            display: block;
+            line-height: 1.5;
+            padding: 14px 16px;
+            margin: 0;
+        }
+
+        .topnavbar .topnav #my-menu ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .topnavbar .topnav .toggle-btn {
+            width: 100%;
+            margin: 10px;
+        }
+
+        .topnavbar .topnav .toggle-btn .toggle-btn-icon {
+            display: block;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="topnavbar">
+        <nav class="topnav">
+            <div class="toggle-btn">
+                <button type="button" class="toggle-btn-icon" onclick="myFunction()">
+                    <i class="fa fa-solid fa-bars"></i>
+                </button>                
+            </div>
+        </nav>
+
+        <div id="my-menu">
+            <ul>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#my-menu").slideToggle("slow");
+            });
+        });
+    </script>
+</body>
+
+</html>

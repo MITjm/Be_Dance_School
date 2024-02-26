@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.topnavbar{
+    max-width: 100%;
+}
+
+.topnavbar .topnav .my-menu{
+    background-color: #ffa2ad;
+    display: none;
+}
+
+.topnavbar .topnav .my-menu ul{
+    list-style-type: none;
+    display: block;
+    line-height: 1.5;
+    padding: 14px 16px; 
+    margin: 0;
+}
+.topnavbar .topnav .my-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.topnavbar .topnav .toggle-btn{
+    width: 100%;
+    margin: 10px;
+}
+
+.topnavbar .topnav .toggle-btn .toogle-btn-icon{
+    display: block;
+    margin: 40px auto;
+}
